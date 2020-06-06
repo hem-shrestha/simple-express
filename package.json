@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "tsc -p src",
-    "start": "node dist/main.js",
+    "start": "node src/main.ts",
     "server": "node dist/main.js",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
